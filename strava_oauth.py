@@ -80,7 +80,14 @@ def is_token_valid(token_info):
     # If the response status is 200, the token is valid
     return response.status_code == 200
 
+saved_token = None
+
 def get_token():
+    global saved_token
+    
+    if saved_token:
+        return saved_token
+    
     token_file = os.getenv('TOKEN_FILE')
     
     # Check if the token file already exists
@@ -91,6 +98,7 @@ def get_token():
             if is_token_valid(token_info):
                 athlete = token_info.get('athlete', {})
                 print(f"Logged in as '{athlete.get('firstname', 'unknown')} {athlete.get('lastname', 'unknown')}'")
+                saved_token = token_info['access_token']
                 return token_info['access_token']
             
     # If no valid token, start the Flask server in a new process
@@ -118,4 +126,5 @@ def get_token():
         token_info = json.load(f)
         athlete = token_info.get('athlete', {})
         print(f"Logged in as '{athlete.get('firstname', 'unknown')} {athlete.get('lastname', 'unknown')}'")
+        saved_token = token_info['access_token']
         return token_info['access_token']
