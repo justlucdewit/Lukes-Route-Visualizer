@@ -1,0 +1,29 @@
+{
+    "token_type": "Bearer",
+    "expires_at": 1730593715,
+    "expires_in": 16670,
+    "refresh_token": "cc76d93ddb7685a847da3c5caad7335dd2335c1c",
+    "access_token": "26341c34a7909dc812cbe4345f24625a4d361129",
+    "athlete": {
+        "id": 143159055,
+        "username": null,
+        "resource_state": 2,
+        "firstname": "Luc",
+        "lastname": "de Wit",
+        "bio": null,
+        "city": "'s-Hertogenbosch",
+        "state": "North Brabant",
+        "country": "Netherlands",
+        "sex": "M",
+        "premium": false,
+        "summit": false,
+        "created_at": "2024-07-24T10:23:34Z",
+        "updated_at": "2024-11-02T17:29:34Z",
+        "badge_type_id": 0,
+        "weight": 0.0,
+        "profile_medium": "https://graph.facebook.com/7850719795049004/picture?height=256&width=256",
+        "profile": "https://graph.facebook.com/7850719795049004/picture?height=256&width=256",
+        "friend": null,
+        "follower": null
+    }
+}
