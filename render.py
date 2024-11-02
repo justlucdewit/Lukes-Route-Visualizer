@@ -61,7 +61,7 @@ def render_routes():
     offset_y = min_lat
 
     # Movement speed factor
-    movement_speed = 2
+    movement_speed = 5
     
     # Main loop
     running = True
@@ -87,17 +87,17 @@ def render_routes():
             offset_x += movement_speed / scale  # Move right
         
         # Zoom controls
-        zoom_factor = 0.001
+        zoom_factor = 0.005
         if keys[pygame.K_q]:  # Zoom in
             scale *= (1 - zoom_factor)
             # Adjust offsets to keep zooming centered
-            offset_x += (width / 2 / scale) * zoom_factor
-            offset_y += (height / 2 / scale) * zoom_factor
+            offset_x -= (width / 2 / scale) * zoom_factor
+            offset_y -= (height / 2 / scale) * zoom_factor
         if keys[pygame.K_e]:  # Zoom out
             scale *= (1 + zoom_factor)
             # Adjust offsets to keep zooming centered
-            offset_x -= (width / 2 / scale) * zoom_factor
-            offset_y -= (height / 2 / scale) * zoom_factor
+            offset_x += (width / 2 / scale) * zoom_factor
+            offset_y += (height / 2 / scale) * zoom_factor
             
         # Check for screenshot key press
         if keys[pygame.K_p]:  # Press 'P' to take a screenshot
