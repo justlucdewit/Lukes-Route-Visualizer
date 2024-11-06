@@ -1,29 +1,103 @@
 activities:
-- id: 12619185532
+- average_speed: 3.948
+  distance: 5717.0
+  id: 12836091188
+  moving_time: 1448
+  start_date: '2024-11-06T11:31:16+00:00'
+  type: 10
+- average_speed: 1.232
+  distance: 3934.5
+  id: 12835824738
+  moving_time: 3193
+  start_date: '2024-11-06T07:27:34+00:00'
+  type: 10
+- average_speed: 1.068
+  distance: 2186.1
+  id: 12827924677
+  moving_time: 2047
+  start_date: '2024-11-05T11:30:14+00:00'
+  type: null
+- average_speed: 3.819
+  distance: 2039.2
+  id: 12619185532
+  moving_time: 534
   start_date: '2024-10-10T06:24:27+00:00'
-- id: 12479251420
+  type: 10
+- average_speed: 5.084
+  distance: 45768.7
+  id: 12479251420
+  moving_time: 9002
   start_date: '2024-09-22T09:57:13+00:00'
-- id: 12479452850
+  type: 10
+- average_speed: 5.746
+  distance: 23686.0
+  id: 12479452850
+  moving_time: 4122
   start_date: '2024-09-22T09:56:54+00:00'
-- id: 12460834461
+  type: null
+- average_speed: 5.352
+  distance: 28004.2
+  id: 12460834461
+  moving_time: 5232
   start_date: '2024-09-20T16:40:04+00:00'
-- id: 12434844730
+  type: null
+- average_speed: 5.262
+  distance: 32313.4
+  id: 12434844730
+  moving_time: 6141
   start_date: '2024-09-17T15:25:21+00:00'
-- id: 12433537441
+  type: 10
+- average_speed: 1.875
+  distance: 1072.3
+  id: 12433537441
+  moving_time: 572
   start_date: '2024-09-09T08:51:25+00:00'
-- id: 12344005107
+  type: 10
+- average_speed: 4.665
+  distance: 4660.8
+  id: 12344005107
+  moving_time: 999
   start_date: '2024-09-06T21:09:19+00:00'
-- id: 12197124338
+  type: 10
+- average_speed: 2.695
+  distance: 8698.3
+  id: 12197124338
+  moving_time: 3227
   start_date: '2024-08-17T12:27:19+00:00'
-- id: 12106245916
+  type: 10
+- average_speed: 4.987
+  distance: 6079.4
+  id: 12106245916
+  moving_time: 1219
   start_date: '2024-08-09T21:28:28+00:00'
-- id: 12105491997
+  type: 10
+- average_speed: 5.12
+  distance: 6046.2
+  id: 12105491997
+  moving_time: 1181
   start_date: '2024-08-09T18:46:59+00:00'
-- id: 12071930240
+  type: 10
+- average_speed: 5.025
+  distance: 11602.5
+  id: 12071930240
+  moving_time: 2309
   start_date: '2024-08-05T16:29:48+00:00'
-- id: 12054898734
+  type: 10
+- average_speed: 4.739
+  distance: 31030.8
+  id: 12054898734
+  moving_time: 6548
   start_date: '2024-08-03T17:33:10+00:00'
-- id: 11980186429
+  type: 10
+- average_speed: 4.614
+  distance: 20362.8
+  id: 11980186429
+  moving_time: 4413
   start_date: '2024-07-25T17:00:23+00:00'
-- id: 11968442400
+  type: 10
+- average_speed: 3.833
+  distance: 12398.7
+  id: 11968442400
+  moving_time: 3235
   start_date: '2024-07-24T10:27:14+00:00'
+  type: 10

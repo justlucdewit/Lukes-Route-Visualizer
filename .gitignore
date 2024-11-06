@@ -1,3 +1,7 @@
 storage/routes
 .env
 oauth_token.json
+storage/polylines
+storage/activity_cache.yml
+__pycache__
+screenshots
